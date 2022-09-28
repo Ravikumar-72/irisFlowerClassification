@@ -1,0 +1,65 @@
+<link rel='stylesheet' type='text/css' media='screen' href="{{ url_for('static',filename='css/styles.css')}}">
+
+{% if data=='Iris-setosa' %}
+<h1>Iris-setosa</h1>
+<img src="static/images/setosa.jpg" id="pre-pic">
+<p>
+Kingdom: Plantae
+<br>
+Clade:	Tracheophytes
+<br>
+Clade:	Angiosperms
+<br>
+Clade:	Monocots
+<br>
+Order:	Asparagales
+<br>
+Family:	Iridaceae
+<br>
+Genus:	Iris
+<br>
+Subgenus: Iris subg. Limniris
+<br>
+Section: Iris sect. Limniris
+<br>
+Series:	Iris ser. Tripetalae
+<br>
+Species: I. setosa
+</p>
+
+{% elif data=='Iris-versicolor' %}
+<h1>Iris-versicolor</h1>
+<img src="static/images/versicolor.jpg" id="pre-pic">
+<p>
+Kingdom: Plantae
+Clade:	Tracheophytes
+Clade:	Angiosperms
+Clade:	Monocots
+Order:	Asparagales
+Family:	Iridaceae
+Genus:	Iris
+Subgenus: Iris subg. Limniris
+Section: Iris sect. Limniris
+Series:	Iris ser. Laevigatae
+Species: I. versicolor
+</p>
+
+{% else %}
+<h1>Iris-virginica</h1>
+<img src="static/images/virginica.jpeg" id="pre-pic">
+<p>
+Kingdom: Plantae
+Clade:	Tracheophytes
+Clade:	Angiosperms
+Clade:	Monocots
+Order:	Asparagales
+Family:	Iridaceae
+Genus:	Iris
+Subgenus: Iris subg. Limniris
+Section: Iris sect. Limniris
+Series:	Iris ser. Laevigatae
+Species: I. virginica
+</p>
+
+{%endif%}
+

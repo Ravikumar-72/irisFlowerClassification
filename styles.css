@@ -1,0 +1,105 @@
+/* 
+==============
+Fonts
+=============
+*/
+
+
+body{
+    background:linear-gradient(rgba(241,80,37,0.75),rgba(0,0,0,0.7)),url('../images/b.jpg') center/cover no-repeat
+    fixed;
+    min-height: 100vh;
+    background-blend-mode:darken ;
+    
+
+}
+.header{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    text-transform:capitalize ;
+    /* text-decoration: underline; */
+}
+.form{
+    text-align: center;
+    padding-top: 0;
+    letter-spacing: 2.9px;
+}
+.sl{
+    display: inline-block;
+    border: transparent;
+    padding-bottom: 2rem;
+    color: #FEE440;
+    font-weight: 700;
+    font-size: 30px;
+}
+.sw{
+    display: inline-block;
+    border: transparent;
+    padding-bottom: 2rem;
+    color: #FEE440;
+    font-weight: 700;
+    font-size: 30px;
+}
+.pl{
+    display: inline-block;
+    border: transparent;
+    padding-bottom: 2rem;
+    color: #FEE440;
+    font-weight: 700;
+    font-size: 30px;
+}
+.pw{
+    display: inline-block;
+    border: transparent;
+    padding-bottom: 2rem;
+    color: #FEE440;
+    font-weight: 700;
+    font-size: 30px;
+}
+.btn{
+    padding: 0.50rem 60px;
+    border-radius: 20px;
+    color: #222;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    margin-top: 1rem;
+
+    font-weight: bold;
+}
+.btn:hover{
+    background-color:purple;
+    color: white;
+}
+#input-1{
+    margin-left: 70px;
+    box-shadow: transparent;
+    background: transparent;
+    outline: none;
+    color: white;
+}
+.form{
+    border: none;
+    background: none;
+}
+#pre-pic{
+    height: 300px;
+    width: 300px;
+    margin-left: 500px;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.algo-label{
+    color: #FEE440;
+}
+#Algorithm{
+    color: gray;
+}
+p{
+    text-align: center;
+    color: white;
+}
